@@ -188,6 +188,6 @@ I would like to thank Microverse for giving us a wonderful opportunity to realis
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
-This project is [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt) licensed.
+This project is [MIT](https://github.com/kessie2862/portfolio/blob/main/LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
