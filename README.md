@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <a name="readme-top"></a>
 
 <!--
@@ -191,3 +192,6 @@ I would like to thank Microverse for giving us a wonderful opportunity to realis
 This project is [MIT](https://github.com/kessie2862/portfolio/blob/mobile/LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+=======
+# portfolio
+>>>>>>> main
