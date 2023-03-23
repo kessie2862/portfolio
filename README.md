@@ -1,26 +1,5 @@
-<<<<<<< HEAD
+
 <a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
 
 
 <!-- TABLE OF CONTENTS -->
@@ -192,6 +171,3 @@ I would like to thank Microverse for giving us a wonderful opportunity to realis
 This project is [MIT](https://github.com/kessie2862/portfolio/blob/mobile/LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-=======
-# portfolio
->>>>>>> main
