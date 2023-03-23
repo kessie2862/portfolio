@@ -81,7 +81,7 @@ We will take you through the process. follow these steps.
 
 ### Prerequisites
 
-In order to get started, you need to be familiar with basic **git commands**, **HTML5**, **CSS3** and how to **create a repository**.
+In order to get started, you need to be familiar with basic **git commands**, **HTML5**, **CSS3**, how to **create a repository** and have a code editor installed on your computer.
 
 ### Setup
 
