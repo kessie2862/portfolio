@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  background: #e5e5e5;
+  background: #f7f7f9;
 }
 
 .container {
@@ -34,9 +34,6 @@ body {
 header {
   background: #fff;
   width: 100%;
-}
-
-header nav {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -62,12 +59,14 @@ header i {
   background-image: url(./images/header-shapes-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #fff;
   height: 40rem;
   position: absolute;
+  background-color: #fff;
+  border-bottom-left-radius: 4rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
-main .about {
+.about {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -76,7 +75,7 @@ main .about {
   gap: 0.75rem;
 }
 
-main .about h1 {
+.about h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 2.5rem;
@@ -84,7 +83,7 @@ main .about h1 {
   line-height: 3.25rem;
 }
 
-main .about p {
+.about p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1rem;
@@ -92,22 +91,24 @@ main .about p {
   line-height: 1.5rem;
 }
 
-main .about h3 {
+.about h3 {
   font-family: "Poppins", serif;
   font-size: 1rem;
   font-weight: 500;
   color: #7f8cff;
+  margin-bottom: 1rem;
 }
 
-main .about ul {
+.about ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   align-self: flex-start;
   gap: 1rem;
+  margin-bottom: 1rem;
 }
 
-main .about i {
+.about i {
   font-size: 1.7rem;
   color: #505f79;
 }
