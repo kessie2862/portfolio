@@ -145,12 +145,20 @@ header i {
 }
 
 .works .details img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
 .details .card-info {
   margin-bottom: 1.2rem;
+}
+
+.myself h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: var(--secondary-color);
+  line-height: 3.25rem;
 }
 
 .details .card-info h2 {
@@ -216,6 +224,12 @@ header i {
   margin-bottom: 0.8rem;
 }
 
+.skills li {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+
 .details .card-info .stack {
   display: flex;
   justify-content: flex-start;
@@ -261,12 +275,13 @@ header i {
   padding-top: 6rem;
 }
 
-.skills {
+.myself .list {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr;
 }
 
-.skills .categories .dropdown {
+ul .skills .categories .dropdown {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -274,25 +289,25 @@ header i {
   width: 80%;
 }
 
-.skills .categories .dropdown h3 {
+ul .skills .categories .dropdown h3 {
   font-family: "Poppins", serif;
   font-weight: 500;
   font-size: 1.25rem;
   color: #000;
 }
 
-.skills .categories .dropdown-items {
+ul .skills .categories .dropdown-items ul {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin: 1rem 0;
   gap: 1rem;
   background: #f7f7f9;
-  padding: 0.6rem 0.5rem 0;
+  padding: 1rem 0.5rem;
   border-radius: 0.4rem;
 }
 
-.skills .categories .dropdown-items ul li {
+ul .skills .categories .dropdown-items ul li {
   font-family: "Poppins", serif;
   color: #253858;
   font-size: 1rem;
