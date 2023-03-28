@@ -273,6 +273,7 @@ header i {
 
 .myself {
   padding-top: 6rem;
+  padding-bottom: 10rem;
 }
 
 .myself .list {
@@ -317,4 +318,109 @@ ul .skills .categories .dropdown-items ul li {
 hr {
   border-bottom: 2px solid #e9e9e9;
   margin-bottom: 1.2rem;
+}
+
+/* CONTACT FORM */
+.contact-container {
+  background: url(./images/contact\ form-shapes-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #6071ff;
+  border-top-left-radius: 5rem;
+  margin-top: -4rem;
+}
+
+.contact-container .container h2 {
+  margin: 0 auto 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 2.3rem;
+  text-align: center;
+  padding-top: 8rem;
+}
+
+.contact-container .container p {
+  font-family: "Poppins", sans-serif;
+  color: #ebebff;
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+
+  /* line-height: 1.25rem; */
+  width: 80%;
+  margin: 0 auto 2.5rem;
+  line-height: 1.4;
+  max-width: 32rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 32rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  border: none;
+  border-radius: 0.3rem;
+  margin-bottom: 0.7rem;
+  font-size: 1.1rem;
+  color: #172b4d;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  padding: 0.5rem 0.7rem;
+}
+
+textarea {
+  height: 10rem;
+}
+
+textarea::placeholder {
+  font-family: "Poppins", sans-serif;
+  color: #a7afbd;
+  font-size: 1rem;
+}
+
+button[type="submit"] {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+  color: #6070ff;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.1rem;
+  border: 1px solid #7f8cff;
+  transition: all 300ms ease;
+  letter-spacing: 0.03em;
+  margin-bottom: 4rem;
+  align-self: flex-start;
+}
+
+button[type="submit"]:hover {
+  color: #fff;
+  background: #6070ff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+button[type="submit"]:active {
+  background: #2230d2;
 }
