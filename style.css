@@ -322,9 +322,12 @@ hr {
 
 /* CONTACT FORM */
 .contact-container {
+  background: url(./images/contact\ form-shapes-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   margin: 0 auto;
-  background: #6071ff;
+  background-color: #6071ff;
   border-top-left-radius: 5rem;
   margin-top: -4rem;
 }
@@ -334,9 +337,9 @@ hr {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: #fff;
-  font-size: 2.4rem;
+  font-size: 2.3rem;
   text-align: center;
-  padding-top: 5rem;
+  padding-top: 8rem;
 }
 
 .contact-container .container p {
