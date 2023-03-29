@@ -474,6 +474,14 @@ button[type="submit"]:active {
     gap: 2rem;
   }
 
+  .works .details .card-info {
+    order: 1;
+  }
+
+  .works .details img.switch {
+    order: 2;
+  }
+
   .myself {
     display: grid;
     grid-template-columns: 1fr 1fr;
