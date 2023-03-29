@@ -2,6 +2,7 @@
 
 :root {
   --container-width-phone: 85%;
+  --container-width-desktop: 75%;
   --primary-color: #6070ff;
   --secondary-color: #172b4d;
 }
@@ -101,7 +102,8 @@ header i {
 
 .about ul {
   display: flex;
-  justify-content: space-between;
+
+  /* justify-content: space-between; */
   align-items: center;
   align-self: flex-start;
   gap: 1rem;
@@ -276,6 +278,14 @@ header i {
   padding-bottom: 10rem;
 }
 
+.myself .wrapper .socials li {
+  margin-bottom: 1rem;
+}
+
+.myself .wrapper h3 {
+  margin-top: 1rem;
+}
+
 .myself .list {
   width: 100%;
   display: grid;
@@ -295,6 +305,7 @@ ul .skills .categories .dropdown h3 {
   font-weight: 500;
   font-size: 1.25rem;
   color: #000;
+  margin-top: 2rem;
 }
 
 ul .skills .categories .dropdown-items ul {
@@ -348,8 +359,6 @@ hr {
   font-weight: 300;
   font-size: 1rem;
   text-align: center;
-
-  /* line-height: 1.25rem; */
   width: 80%;
   margin: 0 auto 2.5rem;
   line-height: 1.4;
@@ -423,4 +432,86 @@ button[type="submit"]:hover {
 
 button[type="submit"]:active {
   background: #2230d2;
+}
+
+/* MEDIA QUERIES  */
+
+/* SCREENS  <=767px */
+@media screen and (max-width: 767px) {
+  header ul {
+    display: none;
+  }
+}
+
+/* DESKTOP SCREENS ( >= 768px ) */
+@media screen and (min-width: 768px) {
+  header i {
+    display: none;
+  }
+
+  header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  header ul li a {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    color: #344563;
+    font-weight: 500;
+  }
+
+  .about {
+    width: 70%;
+  }
+
+  .works .details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .works .details .card-info {
+    order: 1;
+  }
+
+  .works .details img.switch {
+    order: 2;
+  }
+
+  .myself {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    width: 85%;
+  }
+
+  ul .skills .categories .dropdown {
+    width: 100%;
+  }
+
+  ul .skills .categories .dropdown h3 {
+    margin-top: 0;
+  }
+
+  .dropdown-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  ul .skills .categories .dropdown-items ul {
+    flex-direction: column;
+    margin: 0.5rem 0 2rem;
+    gap: 0.5rem;
+    padding: 0.8rem 1rem;
+  }
+
+  button[type="submit"] {
+    align-self: center;
+  }
 }
