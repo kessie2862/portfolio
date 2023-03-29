@@ -23,6 +23,11 @@
       <a href="#">Prosper</a>
       <nav>
         <i class="uil uil-bars"></i>
+        <ul>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about-me">About</a></li>
+          <li><a href="#contact-me">Contact</a></li>
+        </ul>
       </nav>
     </header>
 
@@ -73,8 +78,8 @@
     </main>
 
     <!-- WORKS -->
-    <section class="works">
-      <div class="contents container">
+    <section class="works" id="portfolio">
+      <div class="contents container" id="portfolio">
         <div class="projects">
           <div class="details">
             <img src="./images/Snapshoot-Portfolio.png" alt="" />
@@ -196,46 +201,50 @@
     </section>
 
     <!-- MYSELF -->
-    <section class="about-bg">
+    <section class="about-bg" id="about-me">
       <div class="myself about container">
-        <h2>About Myself</h2>
-        <p>
-          I'm a software developer! I can help you build a product , feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don't hesitate to contact
-          me.
-        </p>
-        <h3>LET'S CONNECT</h3>
+        <div class="wrapper">
+          <h2>About Myself</h2>
+          <p>
+            I'm a software developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don't hesitate to
+            contact me.
+          </p>
+          <h3>LET'S CONNECT</h3>
 
-        <ul>
-          <li>
-            <a href="https://twitter.com/Peekay_Codes"
-              ><i class="uil uil-twitter"></i
-            ></a>
-          </li>
+          <ul class="socials">
+            <li>
+              <a href="https://twitter.com/Peekay_Codes"
+                ><i class="uil uil-twitter"></i
+              ></a>
+            </li>
 
-          <li>
-            <a href="https://www.linkedin.com/in/prosper-kessie-363968171/"
-              ><i class="uil uil-linkedin"></i
-            ></a>
-          </li>
+            <li>
+              <a href="https://www.linkedin.com/in/prosper-kessie-363968171/"
+                ><i class="uil uil-linkedin"></i
+              ></a>
+            </li>
 
-          <li>
-            <a href="#"><i class="uil uil-medium-m"></i></a>
-          </li>
+            <li>
+              <a href="#"><i class="uil uil-medium-m"></i></a>
+            </li>
 
-          <li>
-            <a href="https://github.com/kessie2862"
-              ><i class="uil uil-github"></i
-            ></a>
-          </li>
+            <li>
+              <a href="https://github.com/kessie2862"
+                ><i class="uil uil-github"></i
+              ></a>
+            </li>
 
-          <li>
-            <a href="#"><img src="./images/Vector.svg" alt="Two-fingers" /></a>
-          </li>
-        </ul>
+            <li>
+              <a href="#"
+                ><img src="./images/Vector.svg" alt="Two-fingers"
+              /></a>
+            </li>
+          </ul>
 
-        <a class="btn btn-self" href="#">Get my resume</a>
+          <a class="btn btn-self" href="#">Get my resume</a>
+        </div>
 
         <!-- SKILLS -->
         <ul class="list">
@@ -247,25 +256,27 @@
                   <i class="uil uil-angle-down"></i>
                 </div>
 
-                <div class="dropdown-items">
-                  <ul>
-                    <img src="./images/Ellipse1.png" alt="" />
-                    <li>Javascript</li>
-                  </ul>
-                </div>
+                <div class="dropdown-wrapper">
+                  <div class="dropdown-items">
+                    <ul>
+                      <img src="./images/Ellipse1.png" alt="" />
+                      <li>Javascript</li>
+                    </ul>
+                  </div>
 
-                <div class="dropdown-items">
-                  <ul>
-                    <img src="./images/Ellipse2.png" alt="" />
-                    <li>HTML</li>
-                  </ul>
-                </div>
+                  <div class="dropdown-items">
+                    <ul>
+                      <img src="./images/Ellipse2.png" alt="" />
+                      <li>HTML</li>
+                    </ul>
+                  </div>
 
-                <div class="dropdown-items last">
-                  <ul>
-                    <img src="./images/Ellipse3.png" alt="" />
-                    <li>CSS</li>
-                  </ul>
+                  <div class="dropdown-items last">
+                    <ul>
+                      <img src="./images/Ellipse3.png" alt="" />
+                      <li>CSS</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </li>
@@ -295,7 +306,7 @@
     </section>
 
     <!-- CONTACT FORM -->
-    <section>
+    <section id="contact-me">
       <div class="contact-container">
         <div class="container">
           <h2>Contact me</h2>
