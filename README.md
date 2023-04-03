@@ -1,6 +1,4 @@
-
 <a name="readme-top"></a>
-
 
 <!-- TABLE OF CONTENTS -->
 
@@ -45,7 +43,6 @@
   </ul>
 </details>
 
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -78,13 +75,13 @@ Example commands:
 
 ```sh
   cd my-folder
-  
+
   git clone git@github.com:myaccount/my-project.git
 ```
 
 ### Create your **files** and **folder** for your images.
 
-Example command: 
+Example command:
 
 ```sh
 mkdir images
@@ -94,16 +91,16 @@ touch index.html
 touch style.css
 ```
 
-###  **Open** your files in your default browser. 
+### **Open** your files in your default browser.
 
 ```sh
 code .
 ```
+
 You can now write your code to your files.
 To visualize how it will look on mobile phones, open your devoloper tools and change the screen size dimension to 375px.
 
-
-### Add, Commit and Push your changes. 
+### Add, Commit and Push your changes.
 
 #### To add your changes, run
 
@@ -116,6 +113,7 @@ To visualize how it will look on mobile phones, open your devoloper tools and ch
 ```sh
   git commit -m "commit-message"
 ```
+
 Replace **commit-message** with the type of changes you made. Example **Changed background color**
 
 #### To push your changes, run
@@ -126,20 +124,17 @@ Replace **commit-message** with the type of changes you made. Example **Changed 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-
-👤 **Prosper  Kessie**
+👤 **Prosper Kessie**
 
 - GitHub: [@kessie2862](https://github.com/kessie2862)
 - Twitter: [@Peekay_Codes](https://twitter.com/Peekay_Codes)
 - LinkedIn: [Prosper Kessie](https://www.linkedin.com/in/prosper-kessie-363968171/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- FUTURE FEATURES -->
 
@@ -157,13 +152,11 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project, follow me to see all my projects in the future
-
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -171,10 +164,10 @@ If you like this project, follow me to see all my projects in the future
 
 I would like to thank Microverse for giving us a wonderful opportunity to realise our dreams.
 
-
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
+
 This project is [MIT](https://github.com/kessie2862/portfolio/blob/mobile/LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
