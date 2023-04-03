@@ -41,12 +41,24 @@ header {
   padding: 2rem;
 }
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 header a {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   text-align: center;
   font-weight: 700;
   color: var(--primary-color);
+  animation: rotate 2s linear;
+  animation-fill-mode: forwards;
 }
 
 header i {
@@ -102,8 +114,6 @@ header i {
 
 .about ul {
   display: flex;
-
-  /* justify-content: space-between; */
   align-items: center;
   align-self: flex-start;
   gap: 1rem;
@@ -131,6 +141,16 @@ header i {
   gap: 2rem;
 }
 
+.works .details img {
+  width: 100%;
+  height: auto;
+  transition: all 0.5s ease-in-out;
+}
+
+.works .details img:hover {
+  transform: scale(1.05);
+}
+
 .works .details {
   background: #fff;
   padding: 1rem;
@@ -144,11 +164,6 @@ header i {
 
 .works .details:nth-child(1) {
   margin-top: 45rem;
-}
-
-.works .details img {
-  width: 100%;
-  height: auto;
 }
 
 .details .card-info {
@@ -263,6 +278,16 @@ header i {
   color: #396df2;
   margin-bottom: 2rem;
   align-self: start;
+  transition: all 300ms ease;
+}
+
+.btn-self:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.btn-self:active {
+  background-color: #2230d2;
 }
 
 /* MYSELF */
@@ -462,6 +487,14 @@ button[type="submit"]:active {
     font-size: 1rem;
     color: #344563;
     font-weight: 500;
+    opacity: 0.6;
+    transition: all 400ms ease-in-out;
+  }
+
+  header ul li a:hover {
+    color: #2230d2;
+    opacity: 1;
+    margin-right: 0.1rem;
   }
 
   .about {
