@@ -333,7 +333,7 @@ hr {
 
 /* CONTACT FORM */
 .contact-container {
-  background: url(./images/contact-form-shapes-mobile.png);
+  background: url(./images/contact\ form\ shapes-mobile@2x.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
