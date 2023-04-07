@@ -9,6 +9,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🚀 Walkthrough](#walkthrough)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -56,6 +57,12 @@ This repo only takes you through how to build a portfolio webpage.
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://kessie2862.github.io/portfolio/)
+
+<!-- WALKTHROUGH -->
+
+## 🚀 Walkthrough <a name="walkthrough"></a>
+
+- [Walkthrough Link](https://www.loom.com/share/df04e32c16af48269b13adc44d776cbd)
 
 <!-- GETTING STARTED -->
 
