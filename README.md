@@ -60,7 +60,7 @@ This repo only takes you through how to build a portfolio webpage.
 
 <!-- WALKTHROUGH -->
 
-## 🚀 Walkthrough <a name="walkthrough"></a>
+## 🚶‍♂️ Walkthrough <a name="walkthrough"></a>
 
 - [Walkthrough Link](https://www.loom.com/share/df04e32c16af48269b13adc44d776cbd)
 
