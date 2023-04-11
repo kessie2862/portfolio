@@ -21,15 +21,18 @@
     <!-- HEADER -->
     <header>
       <a href="#">Prosper</a>
-      <nav>
-        <i class="uil uil-bars"></i>
-        <ul>
+      <nav class="nav__container">
+        <i id="menu-btn" class="uil uil-bars"></i>
+        <i id="close-btn" class="uil uil-multiply"></i>
+
+        <ul class="nav__items">
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#about-me">About</a></li>
           <li><a href="#contact-me">Contact</a></li>
         </ul>
       </nav>
     </header>
+    <div class="overlay hidden"></div>
 
     <!-- MAIN -->
     <main>
@@ -359,5 +362,7 @@
         </div>
       </div>
     </section>
+
+    <script src="script.js"></script>
   </body>
 </html>
