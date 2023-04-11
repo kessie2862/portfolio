@@ -14,4 +14,29 @@ menuBtn.addEventListener('click', () => {
   document.body.style.overflow = 'hidden';
 });
 
+  // close nav menu function
+  const closeNavMenu = () => {
+    menu.style.display = 'none';
+    menuBtn.style.display = 'inline-block';
+    closeBtn.style.display = 'none';
+    overlay.classList.add('hidden');
+
+    // Enable scrolling when overlay is inactive
+    document.body.style.overflow = 'scroll';
+  };
+  
+  closeBtn.addEventListener('click', () => {
+    closeNavMenu();
+  });
+
+  // close nav menu when any nav Items is clicked on tablets and mobile
+  const navItems = document.querySelectorAll('nav__items li a');
+  if (window.innerWidth < 767) {
+    navItems.forEach((item) => {
+      item.addEventListener('click', () => {
+        closeNavMenu();
+      });
+    });
+  }
+
 
