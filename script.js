@@ -31,7 +31,7 @@ closeBtn.addEventListener('click', () => {
 
 // close nav menu when any nav Items is clicked on tablets and mobile
 const navItems = document.querySelectorAll('nav__items li a');
-if (window.innerWidth < 1000) {
+if (window.innerWidth < 767) {
   navItems.forEach((item) => {
     item.addEventListener('click', () => {
       closeNavMenu();
