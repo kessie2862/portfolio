@@ -15,6 +15,7 @@
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="modal-popup.css" />
     <title>Portfolio</title>
   </head>
   <body>
@@ -84,7 +85,7 @@
     <section class="works" id="portfolio">
       <div class="contents container" id="portfolio">
         <div class="projects">
-          <div class="details">
+          <div class="details" data-name="popup-1">
             <img src="./images/Snapshoot-Portfolio.png" alt="" />
 
             <div class="card-info">
@@ -113,7 +114,7 @@
             </div>
           </div>
 
-          <div class="details">
+          <div class="details" data-name="popup-2">
             <img
               class="switch"
               src="./images/Snapshoot-Portfolio1.png"
@@ -146,7 +147,7 @@
             </div>
           </div>
 
-          <div class="details">
+          <div class="details" data-name="popup-3">
             <img src="./images/Snapshoot-Portfolio2.png" alt="" />
 
             <div class="card-info">
@@ -175,7 +176,7 @@
             </div>
           </div>
 
-          <div class="details">
+          <div class="details" data-name="popup-4">
             <img
               class="switch"
               src="./images/Snapshoot-Portfolio3.png"
@@ -210,6 +211,238 @@
         </div>
       </div>
     </section>
+
+    <!-- PROJECT POPUP STARTS -->
+    <section class="project-popup">
+      <div class="popup" data-target="popup-1">
+        <div class="header-close modal-container">
+          <h3 class="popup-title">TONIC</h3>
+          <i id="close-btn" class="uil uil-multiply"></i>
+        </div>
+        <div class="title-and-date modal-container">
+          <p class="title">CANOPY</p>
+          <span></span>
+          <p class="muted">Back End Dev</p>
+          <span></span>
+          <p class="muted">2015</p>
+        </div>
+
+        <div class="card-info modal-container">
+          <img class="main-img" src="./images/Snapshoot-Portfolio.png" alt="" />
+
+          <div class="switch">
+            <div class="description">
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s when an unknown printer too
+              </p>
+
+              <p class="hide">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s when an unknown printer too
+              </p>
+            </div>
+
+            <div class="stack-and-buttons">
+              <ul class="stack">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>RUBY</li>
+                <li class="hide">JAVASCRIPT</li>
+                <li class="hide">BOOTSTRAP</li>
+              </ul>
+
+              <div class="buttons">
+                <a href="#" class="see-live"
+                  ><img src="./images/Enabled1.png" alt="see live"
+                /></a>
+
+                <a href="#" class="see-source"
+                  ><img src="./images/Enabled.png" alt="see source"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="popup" data-target="popup-2">
+        <div class="header-close container">
+          <h3 class="popup-title">TONIC</h3>
+          <i id="close-btn" class="uil uil-multiply"></i>
+        </div>
+        <div class="title-and-date container">
+          <p class="title">CANOPY</p>
+          <span></span>
+          <p class="muted">Back End Dev</p>
+          <span></span>
+          <p class="muted">2015</p>
+        </div>
+
+        <div class="card-info container">
+          <img
+            class="main-img"
+            src="./images/Snapshoot-Portfolio1.png"
+            alt=""
+          />
+
+          <div class="switch">
+            <div class="description">
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s when an unknown printer too
+              </p>
+
+              <p class="hide">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s when an unknown printer too
+              </p>
+            </div>
+
+            <div class="stack-and-buttons">
+              <ul class="stack">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>RUBY</li>
+                <li class="hide">JAVASCRIPT</li>
+                <li class="hide">BOOTSTRAP</li>
+              </ul>
+
+              <div class="buttons">
+                <a href="#" class="see-live"
+                  ><img src="./images/Enabled1.png" alt="see live"
+                /></a>
+
+                <a href="#" class="see-source"
+                  ><img src="./images/Enabled.png" alt="see source"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="popup" data-target="popup-3">
+        <div class="header-close container">
+          <h3 class="popup-title">TONIC</h3>
+          <i id="close-btn" class="uil uil-multiply"></i>
+        </div>
+        <div class="title-and-date container">
+          <p class="title">CANOPY</p>
+          <span></span>
+          <p class="muted">Back End Dev</p>
+          <span></span>
+          <p class="muted">2015</p>
+        </div>
+
+        <div class="card-info container">
+          <img
+            class="main-img"
+            src="./images/Snapshoot-Portfolio2.png"
+            alt=""
+          />
+
+          <div class="switch">
+            <div class="description">
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s when an unknown printer too
+              </p>
+
+              <p class="hide">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s when an unknown printer too
+              </p>
+            </div>
+
+            <div class="stack-and-buttons">
+              <ul class="stack">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>RUBY</li>
+                <li class="hide">JAVASCRIPT</li>
+                <li class="hide">BOOTSTRAP</li>
+              </ul>
+
+              <div class="buttons">
+                <a href="#" class="see-live"
+                  ><img src="./images/Enabled1.png" alt="see live"
+                /></a>
+
+                <a href="#" class="see-source"
+                  ><img src="./images/Enabled.png" alt="see source"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="popup" data-target="popup-4">
+        <div class="header-close container">
+          <h3 class="popup-title">TONIC</h3>
+          <i id="close-btn" class="uil uil-multiply"></i>
+        </div>
+        <div class="title-and-date container">
+          <p class="title">CANOPY</p>
+          <span></span>
+          <p class="muted">Back End Dev</p>
+          <span></span>
+          <p class="muted">2015</p>
+        </div>
+
+        <div class="card-info container">
+          <img
+            class="main-img"
+            src="./images/Snapshoot-Portfolio3.png"
+            alt=""
+          />
+
+          <div class="switch">
+            <div class="description">
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s when an unknown printer too
+              </p>
+
+              <p class="hide">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s when an unknown printer too
+              </p>
+            </div>
+
+            <div class="stack-and-buttons">
+              <ul class="stack">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>RUBY</li>
+                <li class="hide">JAVASCRIPT</li>
+                <li class="hide">BOOTSTRAP</li>
+              </ul>
+
+              <div class="buttons">
+                <a href="#" class="see-live"
+                  ><img src="./images/Enabled1.png" alt="see live"
+                /></a>
+
+                <a href="#" class="see-source"
+                  ><img src="./images/Enabled.png" alt="see source"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PROJECT POPUP ENDS -->
 
     <!-- MYSELF -->
     <section class="about-bg" id="about-me">
@@ -362,6 +595,16 @@
         </div>
       </div>
     </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="projects-container"></div>
+      </div>
+    </section>
+
+    <div class="project-popup">
+      <div class="popup"></div>
+    </div>
 
     <script src="script.js"></script>
   </body>
