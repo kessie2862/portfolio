@@ -18,8 +18,7 @@ body {
 }
 
 /* PROJECT POPUP STARTS */
-
-.project-popup {
+#modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -30,22 +29,23 @@ body {
   display: none;
   align-items: center;
   justify-content: center;
+  z-index: 7;
 }
 
 .modal-container {
-  width: 88%;
+  width: 86%;
   margin: 0 auto;
 }
 
-.project-popup .popup {
-  display: none;
+#modal .popup {
   padding: 0.5rem;
   text-align: center;
   background: #fff;
   position: relative;
   width: 50%;
-  margin: 1rem auto;
+  margin: 0 auto;
   border-radius: 0.5rem;
+  z-index: 5;
 }
 
 .project-popup .popup.active {
@@ -72,6 +72,7 @@ body {
 }
 
 .main-img {
+  height: auto;
   width: 68%;
   margin: 0 auto;
 }
