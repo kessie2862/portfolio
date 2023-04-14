@@ -222,6 +222,14 @@ header i {
   font-style: normal;
 }
 
+/* FORM SPAN */
+form span {
+  color: rgb(230, 7, 7);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
 .details .card-info .title-and-date span {
   width: 0.4rem;
   height: 0.4rem;
