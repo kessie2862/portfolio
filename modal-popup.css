@@ -42,8 +42,10 @@ body {
   text-align: center;
   background: #fff;
   position: relative;
-  width: 50%;
-  margin: 0 auto;
+  width: 80%;
+  overflow-y: auto;
+  height: 90vh;
+  margin: 0 auto 1rem;
   border-radius: 0.5rem;
   z-index: 5;
 }
@@ -73,7 +75,7 @@ body {
 
 .main-img {
   height: auto;
-  width: 68%;
+  width: 74%;
   margin: 0 auto;
 }
 
@@ -166,7 +168,7 @@ body {
 
 @media screen and (min-width: 768px) {
   #modal .popup {
-    margin-top: 2rem;
+    margin: 2rem auto;
   }
 
   .switch {
