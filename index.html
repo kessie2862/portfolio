@@ -209,26 +209,29 @@
             to help with it!
           </p>
           <div class="contact-form">
-            <form action="https://formspree.io/f/xgebppvn" method="POST">
+            <form action="https://formspree.io/f/xgebppvn" method="POST" id="form">
+              <span id="fullNameError"></span>
               <div class="form-group">
                 <input
                   type="text"
-                  id="name"
+                  id="fullName"
                   placeholder="Enter your name"
                   name="name"
                   maxlength="30"
-                  required
                 />
               </div>
+
+              <span id="emailError"></span>
               <div class="form-group">
                 <input
                   type="email"
                   id="email"
                   name="email"
-                  placeholder="Enter your email"
-                  required
+                  placeholder="example@email.com"
                 />
               </div>
+
+              <span id="messageError"></span>
               <div class="form-group">
                 <textarea
                   id="message"
@@ -238,7 +241,7 @@
                   maxlength="500"
                 ></textarea>
               </div>
-              <button type="submit">Get in touch</button>
+              <button type="submit" id="submit-btn">Get in touch</button>
             </form>
           </div>
         </div>

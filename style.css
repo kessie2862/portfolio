@@ -58,7 +58,7 @@ header {
 }
 
 header a {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   text-align: center;
   font-weight: 700;
@@ -93,7 +93,7 @@ header i {
 }
 
 .about h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 2.5rem;
   color: var(--secondary-color);
@@ -101,7 +101,7 @@ header i {
 }
 
 .about p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1rem;
   color: var(--secondary-color);
@@ -109,7 +109,7 @@ header i {
 }
 
 .about h3 {
-  font-family: "Poppins", serif;
+  font-family: 'Poppins', serif;
   font-size: 1rem;
   font-weight: 500;
   color: #7f8cff;
@@ -175,7 +175,7 @@ header i {
 }
 
 .myself h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 2.2rem;
   color: var(--secondary-color);
@@ -183,14 +183,14 @@ header i {
 }
 
 .details .card-info h2 {
-  font-family: "Poppins", serif;
+  font-family: 'Poppins', serif;
   font-weight: 700;
   font-size: 2rem;
   color: #172b4d;
 }
 
 .details .card-info a {
-  font-family: "Poppins", serif;
+  font-family: 'Poppins', serif;
   font-weight: 500;
   font-size: 1rem;
   color: #396df2;
@@ -215,11 +215,19 @@ header i {
 }
 
 .details .card-info .title-and-date .title {
-  font-family: "Poppins", serif;
+  font-family: 'Poppins', serif;
   font-weight: 500;
   font-size: 0.9rem;
   color: #344563;
   font-style: normal;
+}
+
+/* FORM SPAN */
+form span {
+  color: rgb(230, 7, 7);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 .details .card-info .title-and-date span {
@@ -230,14 +238,14 @@ header i {
 }
 
 .details .card-info .title-and-date .muted {
-  font-family: "Poppins", serif;
+  font-family: 'Poppins', serif;
   color: #7a869a;
   font-weight: 500;
   font-size: 0.8rem;
 }
 
 .details .card-info .description {
-  font-family: "Poppins", serif;
+  font-family: 'Poppins', serif;
   font-weight: 400;
   font-size: 0.9rem;
   line-height: 24px;
@@ -260,7 +268,7 @@ header i {
 }
 
 .details .card-info .stack li {
-  font-family: "Poppins", serif;
+  font-family: 'Poppins', serif;
   padding: 0.25rem 0.75rem;
   background: #ebebff;
   border-radius: 0.3rem;
@@ -276,7 +284,7 @@ header i {
 }
 
 .btn-self {
-  font-family: "Poppins", serif;
+  font-family: 'Poppins', serif;
   font-weight: 500;
   font-size: 1rem;
   color: #396df2;
@@ -330,7 +338,7 @@ ul .skills .categories .dropdown {
 }
 
 ul .skills .categories .dropdown h3 {
-  font-family: "Poppins", serif;
+  font-family: 'Poppins', serif;
   font-weight: 500;
   font-size: 1.25rem;
   color: #000;
@@ -349,7 +357,7 @@ ul .skills .categories .dropdown-items ul {
 }
 
 ul .skills .categories .dropdown-items ul li {
-  font-family: "Poppins", serif;
+  font-family: 'Poppins', serif;
   color: #253858;
   font-size: 1rem;
   font-weight: 500;
@@ -374,7 +382,7 @@ hr {
 
 .contact-container .container h2 {
   margin: 0 auto 2rem;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   color: #fff;
   font-size: 2.3rem;
@@ -383,7 +391,7 @@ hr {
 }
 
 .contact-container .container p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #ebebff;
   font-weight: 300;
   font-size: 1rem;
@@ -414,8 +422,8 @@ form {
   margin-bottom: 20px;
 }
 
-input[type="text"],
-input[type="email"],
+input[type='text'],
+input[type='email'],
 textarea {
   border: none;
   border-radius: 0.3rem;
@@ -423,7 +431,7 @@ textarea {
   font-size: 1.1rem;
   color: #172b4d;
   font-weight: 300;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   padding: 0.5rem 0.7rem;
 }
 
@@ -432,14 +440,14 @@ textarea {
 }
 
 textarea::placeholder {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #a7afbd;
   font-size: 1rem;
 }
 
-button[type="submit"] {
+button[type='submit'] {
   font-size: 1rem;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   background-color: #fff;
   color: #6070ff;
@@ -452,14 +460,14 @@ button[type="submit"] {
   align-self: flex-start;
 }
 
-button[type="submit"]:hover {
+button[type='submit']:hover {
   color: #fff;
   background: #6070ff;
   border: 1px solid #fff;
   cursor: pointer;
 }
 
-button[type="submit"]:active {
+button[type='submit']:active {
   background: #2230d2;
 }
 
@@ -531,7 +539,7 @@ button[type="submit"]:active {
   }
 
   header ul li a {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     color: #344563;
     font-weight: 500;
@@ -592,7 +600,7 @@ button[type="submit"]:active {
     padding: 0.8rem 1rem;
   }
 
-  button[type="submit"] {
+  button[type='submit'] {
     align-self: center;
   }
 }
