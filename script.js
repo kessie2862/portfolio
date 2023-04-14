@@ -112,3 +112,18 @@ submitButton.addEventListener('click', (event) => {
     emailInput.value = '';
   }
 });
+
+// SAVE DATA IN LOCAL STORAGE
+
+// Function to save user input data to local storage
+function savaData() {
+  // Get user input values
+  const userData = {
+    username: fullNameInput.value,
+    email: emailInput.value,
+    message: messageInput.value,
+  };
+
+  // Store user data in local storage
+  localStorage.setItem('userData', JSON.stringify(userData));
+}
