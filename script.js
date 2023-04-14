@@ -127,3 +127,8 @@ function savaData() {
   // Store user data in local storage
   localStorage.setItem('userData', JSON.stringify(userData));
 }
+
+// Add event listeners to input fields to trigger save function on focus out
+fullNameInput.addEventListener('focusout', savaData);
+emailInput.addEventListener('focusout', savaData);
+messageInput.addEventListener('focusout', savaData);
