@@ -45,7 +45,7 @@
 </details>
 
 <details>
-  <summary>JavaScript</summary>
+  <summary>Javascript</summary>
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Javascript</a></li>
   </ul>
